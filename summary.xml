@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Test execution" fontcolor="#ffffff">
-	<field name="Nombre del campo" titlecolor="black" value="15" detailcolor="#000000" href="artifacts/field.txt"></field>
-	<field name="Nombre del campo" titlecolor="black" value="25" detailcolor="#000000" href="artifacts/field.txt"></field>
-	<field name="Nombre del campo" titlecolor="black" value="35" detailcolor="#000000" href="artifacts/field.txt"></field>
-	<field name="Nombre del campo" titlecolor="black" value="45" detailcolor="#000000" href="artifacts/field.txt"></field>
+	<field name="" titlecolor="black" value="Resultado de ultima ejecucion" detailcolor="#000000" href="reports/all_results.xml"></field>
+	<field name="" titlecolor="black" value="Grafico de tortas" detailcolor="#000000" href="artifacts/field.txt"></field>
+
 </section>
