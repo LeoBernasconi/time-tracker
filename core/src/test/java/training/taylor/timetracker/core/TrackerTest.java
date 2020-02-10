@@ -45,7 +45,7 @@ public class TrackerTest {
     
     @Test
     public void testFailTwo() {
-        assertTrue(1==1);
+        assertTrue(1==2);
     }
     
     @Ignore
