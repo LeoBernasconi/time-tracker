@@ -48,11 +48,10 @@ public class TrackerTest {
         assertTrue(1==2);
     }
     
-    @Ignore
+    
     @Test
     public void testFailThree() {
-        assertTrue(1==1);
-        //fail("Forced error");
+        fail("Forced error");
     }
     
     
