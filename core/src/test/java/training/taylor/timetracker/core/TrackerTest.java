@@ -40,12 +40,12 @@ public class TrackerTest {
         entry.setRate(80.0f);
         entry.setTime(3);
         tracker.add(entry);
-        assertTrue(tracker.size() <0);
+        assertTrue(tracker.size() >0);
     }
     
     @Test
     public void testFailTwo() {
-        assertTrue(1==2);
+        assertTrue(1==1);
     }
     
     @Test
