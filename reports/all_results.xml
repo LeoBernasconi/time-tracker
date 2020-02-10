@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://whale.bcn.rd.hpicorp.net/viewer/viewer.xsl"?>
+<results>
+	<summary>
+		<tests>183</tests>
+		<ok>41</ok>
+		<failed>11</failed>
+		<ignored>131</ignored>
+	</summary>
+	<testsuites>
+		<testsuite diag_file="" failed="7" ignored="132" log_file="result.log" name="AllTests" status="KO" success="48" time="570.165" xml_result="result.xml"/>
+	</testsuites>
+</results>
