@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Test execution" fontcolor="#ffffff">
+	<field name="Nombre del campo" titlecolor="black" value="15" detailcolor="#000000" href="artifacts/field.txt"></field>
+	<field name="Nombre del campo" titlecolor="black" value="25" detailcolor="#000000" href="artifacts/field.txt"></field>
+	<field name="Nombre del campo" titlecolor="black" value="35" detailcolor="#000000" href="artifacts/field.txt"></field>
+	<field name="Nombre del campo" titlecolor="black" value="45" detailcolor="#000000" href="artifacts/field.txt"></field>
+</section>
+<table sorttable="yes">
+        <tr>
+                <td value="Table title" bgcolor="red" fontcolor="black" fontattribute="bold" href="report.xls" align="center" width="200"/>
+                <td value="Column 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="center" width="200"/>
+        </tr>
+        <tr>
+                <td value="Line 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="left" width="200"/>
+                <td value="Value 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="none" width="200"/>
+        </tr>
+</table>
+
+<tabs>
+	<tab name="First tab">
+		<field name="Build status" value="All target succeeded" />
+		<field name="Functionnal status" value="Validation is Ok" />
+	</tab>
+	<tab name="Second tab">
+		<table>
+			<tr>
+				<td value="Table title" bgcolor="red" fontcolor="black" fontattribute="bold" href="report.xls" align="center" width="200"/>
+				<td value="Column 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="center" width="200"/>
+			</tr>
+			<tr>
+				<td value="Line 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="left" width="200"/>
+				<td value="Value 1" bgcolor="white" fontcolor="black" fontattribute="normal" href="" align="none" width="200"/>
+			</tr>
+		</table>
+	</tab>
+</tabs>
+
+<section name="" fontcolor="">
+	// To display a field
+	<field name="" titlecolor="" value="" detailcolor="" href=""> <![CDATA[  ]]> </field>
+
+	// To display a table
+	<table>
+		<tr>
+			<td value="" bgcolor="" fontcolor="" title="" fontattribute="" href="" align="" width=""/>
+			<td value="" bgcolor="" fontcolor="" title="" fontattribute="" href="" align="" width=""/>
+		</tr>
+		<tr>
+			<td value="" bgcolor="" fontcolor="" title="" fontattribute="" href="" align="" width=""/>
+			<td value="" bgcolor="" fontcolor="" title="" fontattribute="" href="" align="" width=""/>
+		</tr>
+	</table>
+
+	// To display tabs
+	<tabs>
+		<tab name="">
+		// Only insert table or field in tab
+		</tab>
+		<tab name="">
+		// Only insert table or field in tab
+		</tab>
+	</tabs>
+
+	// To display an accordion
+	<accordion name="">
+	// Only insert table or field in tab
+	</accordion>
+</section>
