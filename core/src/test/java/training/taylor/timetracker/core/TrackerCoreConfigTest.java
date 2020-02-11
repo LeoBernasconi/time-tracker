@@ -23,7 +23,8 @@ public class TrackerCoreConfigTest {
 
     @Test
     public void testMe() {
-        assertNotNull(entries);
+        //assertNotNull(entries);
+        fail("Forced error");
     }
     
     @Test
