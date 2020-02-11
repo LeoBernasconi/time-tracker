@@ -27,7 +27,7 @@ public class TrackerCoreConfigTest {
     }
     
     @Test
-    public void testMe() {
+    public void testMeTwo() {
         fail("Forced error");
     }
 
