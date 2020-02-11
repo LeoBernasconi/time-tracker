@@ -23,6 +23,7 @@ public class TrackerTest {
         assertNotNull(tracker);
     }
 
+    @Ignore
     @Test
     public void testAdd() {
         TimeEntry entry = new TimeEntry();
@@ -32,6 +33,7 @@ public class TrackerTest {
         tracker.add(entry);
         assertTrue(tracker.size() >0);
     }
+    
     
     @Test
     public void testFailOne() {
