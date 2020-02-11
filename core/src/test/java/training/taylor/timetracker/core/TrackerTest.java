@@ -51,7 +51,7 @@ public class TrackerTest {
     @Ignore
     @Test
     public void testFailThree() {
-        assertTrue(1==1);
+        assertTrue(1==2);
         //fail("Forced error");
     }
     
