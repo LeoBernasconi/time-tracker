@@ -48,13 +48,13 @@ public class TrackerTest {
     
     @Test
     public void testFailTwo() {
-        assertTrue(1==1);
+        assertTrue(1==2);
     }
     
     
     @Test
     public void testFailThree() {
-        assertTrue(1==1);
+        assertTrue(1==2);
         //fail("Forced error");
     }
     
