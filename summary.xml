@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Test execution" fontcolor="#ffffff">
 	<field name="Pie chart" titlecolor="black" value="Test results" detailcolor="#000000" href="http://whale.bcn.rd.hpicorp.net/logs/prod/bcd/288478/1-autoL1/polestar/wrl17/D1_DAL_polestar/fast/all_results.xml"></field>
-	<field name="Evolution graph" titlecolor="black" value="Last 10 builds" detailcolor="#000000" href="/"></field>
-
+	<field name="Evolution graph" titlecolor="black" value="Last 10 builds" detailcolor="#000000" href="http://localhost:8080/job/summaryDisplay/"></field>
+	<field name="Others" titlecolor="black" value="Check for others graphs" detailcolor="#000000" href="http://localhost:8080/job/summaryDisplay/"></field>	
 </section>
